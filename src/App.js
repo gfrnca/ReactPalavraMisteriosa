@@ -1,9 +1,10 @@
 import './App.css';
+import StartScreen from './components/StartScreen/StartScreen';
 
 function App() {
   return (
     <div className="App">
-      <h1>Palavra Misteriosa</h1>
+      <StartScreen />
     </div>
   );
 }
