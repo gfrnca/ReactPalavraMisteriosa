@@ -1,3 +1,6 @@
+// CSS
+import './GameScreen.css';
+
 const GameScreen = () => {
   return (
     <div>GameScreen</div>
