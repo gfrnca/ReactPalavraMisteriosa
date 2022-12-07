@@ -1,9 +1,14 @@
 // CSS
 import './GameScreen.css';
 
-const GameScreen = () => {
+const GameScreen = ({ verifyLetter }) => {
   return (
-    <div>GameScreen</div>
+    <div className="screen">
+      <h1>Acerte a palavra!</h1>
+
+      <p>Clique no botão para começar o jogo</p>
+      <button onClick={verifyLetter}>Finalizar jogo</button>
+    </div>
   )
 }
 

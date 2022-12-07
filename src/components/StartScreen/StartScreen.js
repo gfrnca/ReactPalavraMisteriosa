@@ -2,7 +2,7 @@ import './StartScreen.css';
 
 const StartScreen = ({ startGame }) => {
   return (
-    <div className="start-screen">
+    <div className="screen">
       <h1>Palavra Misteriosa</h1>
 
       <p>Clique no botão para começar o jogo</p>
