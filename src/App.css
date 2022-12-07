@@ -9,11 +9,8 @@
 /* General application styles */
 .screen h1 {
   font-size: 3.5em;
-  margin-bottom: 2em;
 }
 
 .screen p {
-  margin-bottom: 2em;
-  color: #ecfa00;
   font-weight: 600;
 }
