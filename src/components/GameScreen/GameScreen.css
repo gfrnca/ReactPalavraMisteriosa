@@ -1,4 +1,15 @@
 /* Game Screen Styles */
+.game {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game h1 {
+  font-size: 3.5em;
+}
+
 .points {
   margin-bottom: 30px;
 }
@@ -17,10 +28,12 @@ h1 {
 }
 
 .word-container {
-  padding: 40px;
+  padding: 1.5em;
   margin: 1.5em;
   border: 20px solid #ecfa00;
   display: flex;
+  width: fit-content;
+  
 }
 
 .letter, .blank-square {
@@ -33,4 +46,36 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
   background: white;
+}
+
+.letter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter-container p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.letter-container form {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.letter-container form input {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 40px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.wrong-letters {
+  margin-top: 40px;
 }

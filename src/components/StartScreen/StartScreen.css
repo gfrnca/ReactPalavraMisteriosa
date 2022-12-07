@@ -1,0 +1,9 @@
+/* Start Screen Styles */
+.start h1 {
+  margin: 25px;
+  font-size: 3.5em;
+}
+
+.start p {
+  margin: 25px;
+}
